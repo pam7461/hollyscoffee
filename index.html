@@ -23,6 +23,19 @@
 
     <style>
         .section.gnb{margin-bottom:40px;}
+        .section.gnb h3{padding:30px 0 10px 20px;font-weight:bolder;font-size:18px;color:#333;background:#faf9f7}
+        .section.gnb h4{font-weight:normal;font-size:14px;color:#999;}
+        .gnb_items li{float:left;}
+        .gnb_item01 img,.gnb_item03 img{width:100%;}
+        
+        /* 내일할거 */
+        .gnb_item02 ul{margin-top:30px;}
+
+
+        .gnb_item02 li{box-sizing:border-box;float:left;width:33.33333333333333%;border-right:1px solid #999;text-align:center;}
+        .gnb_item02 li:last-child{border:none;}
+        .section.gnb .gnb_item02 h3{padding-left:0;background:transparent;}
+        .gnb_item02 li img{width:80%;}
         .section.banner{margin-bottom:40px;}
         .section.notice{}
         .section.footer{}
@@ -71,7 +84,27 @@
             </div>
        </section>
        <section class="section gnb">
-            <div class="row"></div>
+            <div class="row">
+               <ul class="clearfix gnb_items">
+                    <li class="gnb_item01 col03">
+                         <h3>Franchise</h3>
+                         <img src="images/menu_img.gif" alt="프랜차이즈">
+                    </li>
+                    <li class="gnb_item02 col06">
+                         <h3>HOLLYS Mall</h3>
+                         <h4>할리스커피의 다양한 상품들을 온라인에서도 만나보세요.</h4>
+                         <ul class="clearfix">
+                              <li><a href="#"><img src="images/mall_img01.png" alt="상품1"></a></li>
+                              <li><a href="#"><img src="images/mall_img02.png" alt="상품2"></a></li>
+                              <li><a href="#"><img src="images/mall_img03.png" alt="상품3"></a></li>
+                         </ul>
+                    </li>
+                    <li class="gnb_item03 col03">
+                         <h3>Store</h3>
+                         <img src="images/store_img.gif" alt="스토어">
+                    </li>
+               </ul>
+            </div>
        </section>
        <section class="section banner">
             <div class="row"></div>
