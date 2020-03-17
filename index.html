@@ -17,18 +17,25 @@
         .wrap{}
         .section{}
         .section.header{}
-        .section.header ul{}
+        .section.header ul{padding:17px 0;}
         .section.header li{float:left;}
-        .section.header li div{display:inline-block;}
-        .section.header li:nth-child(2){position:relative;}
-        .section.header li:nth-child(2) a{position:absolute;left:50%;transform:translateX(-50%);}
+        .section.header li div{display:inline-block;margin-right:24px;}
+        .section.header li a{font-weight:bold;font-size:12px;color:#333;}
+        .section.header li a:hover{color:#ba000c;}
+        .section.header li:nth-child(2){text-align:center;}
+        .section.header li:nth-child(2) h1{font-size:14px;}
+        .section.header li:nth-child(2) a:hover{color:#333;font-size:14px;}
+        .section.header li:nth-child(3){text-align:right;}
+        .section.header li:nth-child(3) div{margin-right:0;margin-left:24px;}
+        .section.header li:nth-child(3) a{color:#999;}
+        .section.header li:nth-child(3) a:hover{color:#333;}
         .section.main_banner{margin-bottom:46px;}
         .section.main_banner .row{width:100%;background:green;}
         .section.gnb{margin-bottom:40px;}
         .section.banner{margin-bottom:40px;}
         .section.notice{}
         .section.footer{}
-        .row{height:200px;background:red;}
+        /* .row{height:200px;background:red;} */
     </style>
 </head>
 <body>
@@ -42,14 +49,18 @@
                          <div><a href="#">기업특판</a></div>
                     </li>
                     <li class="col04">
-                         <a href="#"><img src="images/logo.png" alt="logo"></a>
+                         <a href="#">
+                              <img src="images/logo.png" alt="logo">
+                              <h1>HOLLYS<br>COFFEE</h1>
+                         </a>
                     </li>
                     <li class="col04">
                          <div><a href="#">멤버십 로그인</a></div>
                          <div><a href="#">멤버십 가입</a></div>
                          <div><a href="#">고객센터</a></div>
                     </li>
-               </ul>   
+               </ul>
+
             </div>
        </header>
        <section class="section main_banner">
