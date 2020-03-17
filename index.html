@@ -16,7 +16,7 @@
     <style>
         .wrap{}
         .section{}
-        .section.header{}
+        .section.header{border-bottom:2px solid #ba000c;}
         .section.header ul{padding:17px 0;}
         .section.header li{float:left;}
         .section.header li div{display:inline-block;margin-right:24px;}
@@ -29,6 +29,12 @@
         .section.header li:nth-child(3) div{margin-right:0;margin-left:24px;}
         .section.header li:nth-child(3) a{color:#999;}
         .section.header li:nth-child(3) a:hover{color:#333;}
+        .nav div{float:left;padding:10px 0 5px;text-align:center;transition:0.3s;}
+        .nav div a{font-weight:bolder;font-size:18px;color:#333;transition:0.3s;}
+        .nav div a span{font-weight:normal;font-size:12px;color:white;visibility:hidden;}
+        .nav div:hover{background:#ba000c;}
+        .nav div:hover a{color:white;}
+        .nav div:hover a span{visibility:visible;}
         .section.main_banner{margin-bottom:46px;}
         .section.main_banner .row{width:100%;background:green;}
         .section.gnb{margin-bottom:40px;}
@@ -60,7 +66,14 @@
                          <div><a href="#">고객센터</a></div>
                     </li>
                </ul>
-
+               <nav class="nav clearfix">
+                    <div class="col02"><a href="#">Menu<br><span>메뉴</span></a></div>
+                    <div class="col02"><a href="#">HOLLYS Mall<br><span>할리스몰</span></a></div>
+                    <div class="col02"><a href="#">Membership<br><span>멤버십</span></a></div>
+                    <div class="col02"><a href="#">HOLLYS News<br><span>뉴스</span></a></div>
+                    <div class="col02"><a href="#">Store<br><span>매장</span></a></div>
+                    <div class="col02"><a href="#">HOLLYS is<br><span>할리스소개</span></a></div>
+               </nav>
             </div>
        </header>
        <section class="section main_banner">
