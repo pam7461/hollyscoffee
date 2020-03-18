@@ -2,6 +2,10 @@
 
 .section.gnb{margin-bottom:40px;}
 .section.gnb h3{padding:30px 0 10px 20px;font-weight:bolder;font-size:18px;color:#333;background:#faf9f7}
+.section.gnb h3::before{content:'';display:inline-block;width:18px;height:18px;margin-right:9px;background-image:url('../images/icons_set.svg');background-size:400%;}
+.section.gnb h3.fran::before{background-position:-36px -18px;}
+.section.gnb h3.holly::before{background-position:-54px -18px;}
+.section.gnb h3.store::before{background-position:0 -36px;}
 .section.gnb h4{font-weight:normal;}
 .gnb_items>li{height:262px;overflow:hidden;float:left;}
 .gnb_item01 img,.gnb_item03 img{width:100%;}
