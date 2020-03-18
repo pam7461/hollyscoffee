@@ -1,0 +1,17 @@
+@charset 'utf-8';
+.section.notice{margin-bottom:40px;}
+.section.notice h4{margin-bottom:12px;}
+.section.notice p{margin-bottom:6px;}
+.section.notice p.baro{padding-top:6px;}
+.section.notice p.baro a{color:#333;}
+.section.notice p.baro:hover a{color:#ba000c;}
+.section.notice li{float:left;}
+.news p{cursor:pointer;}
+.news p:first-child{float:left;}
+.news p:last-child{float:right;}
+.qanda{padding-top: 13px;}
+.qanda li{width:33.33333333333333%;text-align:center;overflow: hidden;}
+.section.notice .qanda li p{margin-bottom:0;}
+.etc01{margin-bottom:10px;}
+.etc02{margin-bottom:7px;}
+.etc03{margin-bottom:6px;}

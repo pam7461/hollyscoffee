@@ -22,16 +22,14 @@
     <link rel="stylesheet" href="css/main_banner.css">
      <link rel="stylesheet" href="css/gnb.css">
      <link rel="stylesheet" href="css/banner.css">
+     <link rel="stylesheet" href="css/notice.css">
+     <link rel="stylesheet" href="css/footer.css">
     <style>
 
+        
+        
 
-        .section.notice{}
-        .section.notice li{float:left;}
-        .news p{cursor:pointer;}
-        .news p:first-child{float:left;}
-        .news p:last-child{float:right;}
 
-        .section.footer{}
         /* .row{height:200px;background:red;} */
     </style>
 </head>
@@ -129,13 +127,16 @@
             <ul class="row clearfix">
                <li class="col03">
                     <h4>Coffee Academy</h4>
-                    <p>할리스커피 아카데미와 함께하는 즐거운<br>커피 여행!</p>
-                    <p><a href="#">바로가기</a></p>
+                    <p>할리스커피 아카데미와 함께하는 즐거운</p>
+                    <p>커피 여행!</p>
+                    <p class="baro"><a href="#">바로가기</a></p>
                </li>
                <li class="col03">
                     <h4>Hollys B2B Solution</h4>
-                    <p>할리스 F&B는 20년의 커피 노하우를<br>기반으로 한 할리스 B2B 솔루션을<br>소개합니다.</p>
-                    <p><a href="#">바로가기</a></p>
+                    <p>할리스 F&B는 20년의 커피 노하우를</p>
+                    <p>기반으로 한 할리스 B2B 솔루션을</p>
+                    <p>소개합니다.</p>
+                    <p class="baro"><a href="#">바로가기</a></p>
                </li>
                <li class="col03 news">
                     <h4>News</h4>
@@ -156,19 +157,20 @@
                     <ul class="clearfix">
                          <li>
                               <a href="#">
-                                   <img src="images/img_etc01.gif" alt="etc01">
+                                   <img class="etc01" src="images/img_etc01.gif" alt="etc01">
                                    <p>창업안내</p>
                               </a>
                          </li>
                          <li>
                               <a href="#">
-                                   <img src="images/img_etc02.gif" alt="etc02">
-                                   <p>아카데미 강좌</p>
+                                   <img class="etc02" src="images/img_etc02.gif" alt="etc02">
+                                   <p>아카데미</p>
+                                   <p>강좌</p>
                               </a>
                          </li>
                          <li>
                               <a href="#">
-                                   <img src="images/img_etc03.gif" alt="etc02">
+                                   <img class="etc03" src="images/img_etc03.gif" alt="etc02">
                                    <p>고객문의</p>
                               </a>
                          </li>
@@ -177,7 +179,22 @@
             </ul>
        </section>
        <footer class="section footer">
-            <div class="row"></div>
+            <div class="row">
+                 <ul class="col12 footer_nav clearfix">
+                      <li><a href="#">개인정보처리방침</a></li>
+                      <li><a href="#">서비스이용약관</a></li>
+                      <li><a href="#">멤버십이용약관</a></li>
+                      <li><a href="#">고객문의</a></li>
+                      <li><a href="#">고객설문</a></li>
+                      <li><a href="#">사이트맵</a></li>
+                      <li><a href="#">BI소개</a></li>
+                 </ul>
+                 <address class="col12">
+                    <p>법인명: (주) 할리스에프앤비 대표자: 김유진 사업자등록번호 211-87-61044 통신판매업: 제2019-서울종로-0193호</p>
+                    <p>주소 : 서울특별시 종로구 율곡로 88 삼환빌딩 8층 (운니동) 대표전화 : 02-2188-7100 (가맹문의 : 1670-4432)</p>
+                    <p>COPYRIGHT (C) HOLLYS COFFEECo., Ltd. All Rights Reserved.</p>
+                 </address>
+            </div>
        </footer>
    </div>    
 </body>
