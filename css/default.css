@@ -19,3 +19,5 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 .col10{width:780px;margin:0 10px;}
 .col11{width:860px;margin:0 10px;}
 .col12{width:940px;margin:0 10px;}
+p{font-weight:300;font-size:13px;color:#333;}
+h4{font-weight:bold;font-size:16px;color:#333;}
